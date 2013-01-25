@@ -24,7 +24,7 @@
 #########################################################
 #########################################################
 
-
+asd tralala
 #This script is hugely inspired by: http://pytest.org/latest/example/parametrize.html#indirect-parametrization-with-multiple-fixtures
 
 #How to install multiple python interpreters: http://pythonists.blogspot.cz/2011/11/installing-multiple-versions-of-python.html
