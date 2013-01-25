@@ -67,4 +67,4 @@ def test_run(intertest):
 	#!!!WARNING: this will delete even those .pyc files that it did not create!!!
 	py.process.cmdexec('rm `find . -name \*.pyc`')
         #clean up. Removes the __pycache__ directory.
-        py.process.cmdexec('rm -r __pycache__')
+	py.process.cmdexec('rm -r __pycache__')
