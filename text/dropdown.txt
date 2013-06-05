@@ -1,0 +1,4 @@
+Dropdown menu
+pages/page.py, Page.select_dropdown
+
+sample pages usage: pages/infrastructure.py, Infrastructure/ManagementSystemsAdd/select_management_system_type

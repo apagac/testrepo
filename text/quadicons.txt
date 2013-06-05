@@ -1,0 +1,6 @@
+Quadicons
+pages/regions/quadicons.py
+uses pages/regions/quadiconitem.py
+
+sample pages usage: pages/infrastructure.py, Infrastructure.ManagementSystems.quadicon_region
+sample test usage: tests/test_infrastructure_datastores.py
