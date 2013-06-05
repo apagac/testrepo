@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Infrastructure - PXE</title>
+        <title>Infrastructure</title>
         <style>
 
             body {
@@ -15,13 +15,13 @@
                 height: 715;
                 margin-left: auto;
                 margin-right: auto;
-                background-image: url(pics/dark/infrastructure_pxe_accordionItem.png)
+                background-image: url(pics/dark/infrastructure_quadicons.png)
             }
 
-            div#accordionItem_text {
+            div#quadicons_text {
                 position: relative;
-                top: 280;
-                left: 334;
+                top: 455;
+                left: 241;
                 width: 200;
                 height: 100
             }
@@ -29,13 +29,16 @@
         </style>
     </head>
     <body>
-        <a href="infrastructure_pxe.html" id="back">
-            <div id='accordionItem_text'>
-                <?php
-                    echo '<pre>';
-                    include('text/accordionItem.txt');
-                    echo '</pre>';
-                ?>
+        <a href="infrastructure.html" id="back">
+            <div id='quadicons_text'>
+                <pre>
+Quadicons
+pages/regions/quadicons.py
+uses pages/regions/quadiconitem.py
+
+sample pages usage: pages/infrastructure.py, Infrastructure.ManagementSystems.quadicon_region
+sample test usage: tests/test_infrastructure_datastores.py
+                </pre>
             </div>
         </a>
 

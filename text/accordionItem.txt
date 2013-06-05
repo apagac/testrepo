@@ -1,6 +1,0 @@
-Accordion Item
-pages/regions/accordionintem.py
-
-sample pages usage: pages/configuration.py Configuration.Configuration.accordion
-                    pages/virtual_intelligence.py VirtualIntelligence.Reports.accordion
-sample test usage: tests/test_accordion.py

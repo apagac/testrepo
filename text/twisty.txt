@@ -1,9 +1,0 @@
-Twisty
-pages/regions/twisty.py
-
-By default imported into pages/regions/tree.py
-which is imported into pages/regions/treeaccordionitem.py
-which is used with pages/regions/accordion.py
-
-sample pages usage: pages/infrastructure.py, Infrastructure.PXE.accordion_region
-sample test usage: tests/test_infra_template.py

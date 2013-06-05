@@ -1,7 +1,0 @@
-Configuration button
-pages/regions/taskbar/center, CenterButtons.configuration_button
-
-sample pages usage: pages/infrastructure.py, Infrastructure.PXE.center_buttons
-sample test usage: tests/test_infra_pxe_server.py
-
-After a click on 'configuration', you must click on desired item.

@@ -15,10 +15,10 @@
                 height: 715;
                 margin-left: auto;
                 margin-right: auto;
-                background-image: url(pics/dark/infrastructure_configuration.png)
+                background-image: url(pics/dark/infrastructure_dropdown.png)
             }
 
-            div#configuration_text {
+            div#dropdown_text {
                 position: relative;
                 top: 455;
                 left: 241;
@@ -30,12 +30,13 @@
     </head>
     <body>
         <a href="infrastructure.html" id="back">
-            <div id='configuration_text'>
-                <?php
-                   echo '<pre>';
-                   include('text/configuration.txt');
-                   echo '</pre>';
-                ?>
+            <div id='dropdown_text'>
+                <pre>
+Dropdown menu
+pages/page.py, Page.select_dropdown
+
+sample pages usage: pages/infrastructure.py, Infrastructure/ManagementSystemsAdd/select_management_system_type
+                </pre>
             </div>
         </a>
 

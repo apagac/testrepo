@@ -15,10 +15,10 @@
                 height: 715;
                 margin-left: auto;
                 margin-right: auto;
-                background-image: url(pics/dark/infrastructure_quadicons.png)
+                background-image: url(pics/dark/infrastructure_configuration.png)
             }
 
-            div#quadicons_text {
+            div#configuration_text {
                 position: relative;
                 top: 455;
                 left: 241;
@@ -30,12 +30,16 @@
     </head>
     <body>
         <a href="infrastructure.html" id="back">
-            <div id='quadicons_text'>
-                <?php
-                    echo '<pre>';
-                    include('text/quadicons.txt');
-                    echo '</pre>';
-                ?>
+            <div id='configuration_text'>
+                <pre>
+Configuration button
+pages/regions/taskbar/center, CenterButtons.configuration_button
+
+sample pages usage: pages/infrastructure.py, Infrastructure.PXE.center_buttons
+sample test usage: tests/test_infra_pxe_server.py
+
+After a click on 'configuration', you must click on desired item.
+                </pre>
             </div>
         </a>
 

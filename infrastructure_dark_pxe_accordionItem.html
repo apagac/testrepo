@@ -15,10 +15,10 @@
                 height: 715;
                 margin-left: auto;
                 margin-right: auto;
-                background-image: url(pics/dark/infrastructure_pxe_twisty.png)
+                background-image: url(pics/dark/infrastructure_pxe_accordionItem.png)
             }
 
-            div#twisty_text {
+            div#accordionItem_text {
                 position: relative;
                 top: 280;
                 left: 334;
@@ -30,12 +30,15 @@
     </head>
     <body>
         <a href="infrastructure_pxe.html" id="back">
-            <div id='twisty_text'>
-                <?php
-                    echo '<pre>';
-                    include('text/twisty.txt');
-                    echo '</pre>';
-                ?>
+            <div id='accordionItem_text'>
+                <pre>
+Accordion Item
+pages/regions/accordionintem.py
+
+sample pages usage: pages/configuration.py Configuration.Configuration.accordion
+                    pages/virtual_intelligence.py VirtualIntelligence.Reports.accordion
+sample test usage: tests/test_accordion.py
+                </pre>
             </div>
         </a>
 

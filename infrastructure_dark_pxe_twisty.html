@@ -15,10 +15,10 @@
                 height: 715;
                 margin-left: auto;
                 margin-right: auto;
-                background-image: url(pics/dark/infrastructure_pxe_configuration.png)
+                background-image: url(pics/dark/infrastructure_pxe_twisty.png)
             }
 
-            div#configuration_text {
+            div#twisty_text {
                 position: relative;
                 top: 280;
                 left: 334;
@@ -30,12 +30,18 @@
     </head>
     <body>
         <a href="infrastructure_pxe.html" id="back">
-            <div id='configuration_text'>
-                <?php
-                    echo '<pre>';
-                    include('text/configuration.txt');
-                    echo '</pre>';
-                ?>
+            <div id='twisty_text'>
+                <pre>
+Twisty
+pages/regions/twisty.py
+
+By default imported into pages/regions/tree.py
+which is imported into pages/regions/treeaccordionitem.py
+which is used with pages/regions/accordion.py
+
+sample pages usage: pages/infrastructure.py, Infrastructure.PXE.accordion_region
+sample test usage: tests/test_infra_template.py
+                </pre>
             </div>
         </a>
 
