@@ -1,8 +1,45 @@
 <html>
     <head>
         <title>Virtual Intelligence</title>
+
+        <script type="text/javascript" src="jquery-1.10.1.min.js"></script>
+        <script type="text/javascript" src="jquery.imagemapster.min.js"></script>
+        <script type="text/javascript" src="dark_magic.js"></script>
+
+        <script>
+            $(function(){
+                dark_magic();
+            });
+        </script>
+
+        <style>
+            div#caption {
+                position: absolute;
+                top: 455px;
+                left: 247px;
+                height: 200px;
+                width: 1002px;
+                clear:both;
+                border: 1px solid black;
+                padding: 6px;
+                display: none;
+                text-align: left;
+            }
+            div#caption-header {
+                font-style: italic;
+                font-weight: bold;
+                margin-bottom: 12px;
+            }
+            img {
+                width: 1285px;
+                height: 715px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+
     </head>
-    <body style="text-align:center">
+    <body>
         <map name="mymap">
             <area shape="rect" coords="181,71,273,101" href="services.html" alt="Services" title="Services" />
             <area shape="rect" coords="277,71,406,101" href="infrastructure.html" alt="Infrastructure" title="Infrastructure" />
@@ -11,6 +48,12 @@
             <area shape="rect" coords="598,71,694,101" href="optimize.html" alt="Optimize" title="Optimize" />
             <area shape="rect" coords="696,71,748,101" href="configure.html" alt="Configure" title="Configure" />
         </map>
-        <img src="pics/virtual_intelligence.png" alt="Virtual Intelligence" usemap="#mymap" />
+        <img id="image" src="pics/virtual_intelligence.png" alt="Virtual Intelligence" usemap="#mymap" />
+
+        <div id="caption">
+            <div id="caption-header"></div>
+            <div id="caption-text"></div>
+        </div>
+
     </body>
 </html>
