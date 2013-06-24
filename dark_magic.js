@@ -10,6 +10,8 @@ links.pages.page = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/pag
 links.pages.configuration = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/configuration.py";
 links.pages.virtual_intelligence = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/virtual_intelligence.py";
 links.pages.services = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/services.py";
+links.pages.services_subpages = {};
+links.pages.services_subpages.provision = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/services_subpages/provision.py"
 links.pages.regions = {};
 links.pages.regions.quadicons = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/regions/quadicons.py";
 links.pages.regions.quadiconitems = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/regions/quadiconitem.py";
@@ -21,6 +23,7 @@ links.pages.regions.twisty = "https://github.com/RedHatQE/cfme_pages/blob/master
 links.pages.regions.tree = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/regions/tree.py";
 links.pages.regions.treeaccordionitem = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/regions/treeaccordionitem.py";
 links.pages.regions.paginator = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/regions/paginator.py";
+links.pages.regions.list = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/regions/list.py"
 links.tests = {};
 links.tests.infrastructure_datastores = "https://github.com/RedHatQE/cfme_pages/blob/master/tests/test_infrastructure_datastores.py";
 links.tests.infra_pxe_server = "https://github.com/RedHatQE/cfme_pages/blob/master/tests/test_infra_pxe_server.py";
@@ -81,7 +84,12 @@ links.tests.paginator = "https://github.com/RedHatQE/cfme_pages/blob/master/test
                   wrap("pages/regions/paginator.py", links.pages.regions.paginator) + " <br>"
                     + "<br>"
                     + "sample pages usage: " + wrap("pages/services.py", links.pages.services) + " Services.VirtualMachines <br>"
-                    + "sample test usage: " + wrap("tests/test_paginator.py", links.tests.paginator) + " <br>" ]
+                    + "sample test usage: " + wrap("tests/test_paginator.py", links.tests.paginator) + " <br>" ],
+                list: ["List",
+                  wrap("pages/regions/list.py", links.pages.regions.list) + " <br>"
+                    + "<br>"
+                    + "sample pages usage: " + wrap("pages/services_subpages/provision.py", links.pages.services_subpages.provision) + " ProvisionStart.template_list <br>"
+                    + "sample test usage:" ]
 
             },
             single_opts = {
