@@ -9,6 +9,7 @@ links.pages.infrastructure = "https://github.com/RedHatQE/cfme_pages/blob/master
 links.pages.page = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/page.py";
 links.pages.configuration = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/configuration.py";
 links.pages.virtual_intelligence = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/virtual_intelligence.py";
+links.pages.services = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/services.py";
 links.pages.regions = {};
 links.pages.regions.quadicons = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/regions/quadicons.py";
 links.pages.regions.quadiconitems = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/regions/quadiconitem.py";
@@ -19,11 +20,13 @@ links.pages.regions.taskbar.center = "https://github.com/RedHatQE/cfme_pages/blo
 links.pages.regions.twisty = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/regions/twisty.py";
 links.pages.regions.tree = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/regions/tree.py";
 links.pages.regions.treeaccordionitem = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/regions/treeaccordionitem.py";
+links.pages.regions.paginator = "https://github.com/RedHatQE/cfme_pages/blob/master/pages/regions/paginator.py";
 links.tests = {};
 links.tests.infrastructure_datastores = "https://github.com/RedHatQE/cfme_pages/blob/master/tests/test_infrastructure_datastores.py";
 links.tests.infra_pxe_server = "https://github.com/RedHatQE/cfme_pages/blob/master/tests/test_infra_pxe_server.py";
 links.tests.accordion = "https://github.com/RedHatQE/cfme_pages/blob/master/tests/test_accordion.py";
 links.tests.infra_template = "https://github.com/RedHatQE/cfme_pages/blob/master/tests/test_infra_template.py";
+links.tests.paginator = "https://github.com/RedHatQE/cfme_pages/blob/master/tests/test_paginator.py";
 
  var inArea,
             map = $('#image'),
@@ -73,7 +76,13 @@ links.tests.infra_template = "https://github.com/RedHatQE/cfme_pages/blob/master
                     + "and in accordion: " + wrap("pages/regions/accordion.py", links.pages.regions.accordion) + " <br>"
                     + "<br>"
                     + "sample pages usage: " + wrap("pages/infrastructure.py", links.pages.infrastructure) + " Infrastructure.PXE.accordion_region <br>"
-                    + "sample test usage: " + wrap("tests/test_infra_template.py", links.tests.infra_template) + " <br>" ]
+                    + "sample test usage: " + wrap("tests/test_infra_template.py", links.tests.infra_template) + " <br>" ],
+                paginator: ["Paginator",
+                  wrap("pages/regions/paginator.py", links.pages.regions.paginator) + " <br>"
+                    + "<br>"
+                    + "sample pages usage: " + wrap("pages/services.py", links.pages.services) + " Services.VirtualMachines <br>"
+                    + "sample test usage: " + wrap("tests/test_paginator.py", links.tests.paginator) + " <br>" ]
+
             },
             single_opts = {
                 fillColor: '000000',
